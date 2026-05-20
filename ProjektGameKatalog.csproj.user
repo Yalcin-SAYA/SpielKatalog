@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Katalog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PacMan.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PacManSpiel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="PacManSpielLV2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RPG.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RPGMenu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SpaceShooter.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SpaceShooterSpiel.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Katalog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PacMan.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PacManSpiel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PacManSpielLV2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RPG.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RPGMenu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SpaceShooter.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SpaceShooterSpiel.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
